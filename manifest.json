@@ -1,0 +1,18 @@
+{
+    "name": "Price Notification",
+    "description": "Alerts of price's down's and up's",
+    "manifest_version" : 2,
+    "version" : "0.0.1",
+    "background" : {
+      "scripts" : ["prices.js"]
+    },
+    "icons": {
+      "128": "128.png"
+    },
+    "browser_action" : {
+      "default_action": "popup.html"
+    },
+    "permissions" : [
+       "notifications"
+    ]
+  }
